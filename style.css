@@ -7,3 +7,8 @@ div.loichuc {
 .loichuc p {
   font-size: 30px;
 }
+/* ví dụ div có con trực tiếp là p */
+div > p {
+  color: blueviolet;
+}
+/* nó khác div p là ở chỗ là thêm dấu ">" */
