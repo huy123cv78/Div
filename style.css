@@ -1,0 +1,9 @@
+div {
+  color: blue;
+}
+div.loichuc {
+  color: aquamarine;
+}
+.loichuc p {
+  font-size: 30px;
+}
