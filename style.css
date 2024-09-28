@@ -12,3 +12,13 @@ div > p {
   color: blueviolet;
 }
 /* nó khác div p là ở chỗ là thêm dấu ">" */
+h1 + h2 {
+  color: beige;
+}
+/* dấu "+" ở giữa h1 và h2 là có nghĩ là css sẽ tác động vào chỉ một phần 
+h2 nằm phía sau h1(lưu ý là ví dụ h2 không nằm sau h1 thì k có tác dụng) */
+h2 ~ h3 {
+  color: aqua;
+}
+/* Ở đây "~" có nghĩa là css sẽ tác động đến tất cả các h3 ở phía sau h2 ngay
+cả khi nó ở phía sau hay là ở cách 2-3 dòng */
